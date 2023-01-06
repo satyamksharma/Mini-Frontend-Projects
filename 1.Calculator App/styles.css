@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    width: 65px;
+    padding: 20px 10px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.row {
+    margin: 1px;
+}
+
+.btn:hover {
+    background: rgb(182, 182, 182);
+}
+
+.btn:active {
+    background-color: rgb(231, 231, 231);
+}
